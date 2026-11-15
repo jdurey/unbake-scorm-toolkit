@@ -1,0 +1,47 @@
+{
+  "name": "unbake-scorm-toolkit",
+  "version": "1.0.0",
+  "description": "Zero-dependency clean-room SCORM 1.2 & SCORM 2004 .zip manifest inspector, Base64 JSON payload auditor, localization string counter, and OASIS XLIFF 1.2 preview toolkit.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Still Human Academy <https://scorm.stillhumanacademy.com>",
+  "homepage": "https://scorm.stillhumanacademy.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jdurey/unbake-scorm-toolkit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jdurey/unbake-scorm-toolkit/issues"
+  },
+  "bin": {
+    "unbake-scorm-inspect": "./bin/unbake-scorm-inspect.mjs"
+  },
+  "main": "./src/index.mjs",
+  "exports": {
+    ".": "./src/index.mjs"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "examples/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test/cli_and_lib.test.mjs"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "scorm",
+    "scorm-1.2",
+    "scorm-2004",
+    "instructional-design",
+    "elearning",
+    "xliff",
+    "lms",
+    "imsmanifest",
+    "edtech"
+  ]
+}
