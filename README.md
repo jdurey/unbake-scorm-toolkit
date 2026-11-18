@@ -3,12 +3,14 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
 [![Zero Dependencies](https://img.shields.io/badge/dependencies-0-brightgreen.svg)](./package.json)
 [![Node.js >= 18](https://img.shields.io/badge/node-%3E%3D18.0.0-339933.svg)](./package.json)
+[![RiseKit Chrome Extension](https://img.shields.io/badge/Chrome_Web_Store-RiseKit_for_Rise_360-0f766e.svg)](https://chromewebstore.google.com/detail/risekit-for-rise-360-them/efgobfllpgjbbbnfckodiljfokafmfmf)
 
 Zero-dependency, 100% clean-room Node.js CLI and ESM library for inspecting published **ADL SCORM 1.2** and **SCORM 2004** `.zip` archives, decoding Base64 JSON course payloads (`runtime-data.js`), verifying IEEE 802.3 CRC32 integrity, auditing root `imsmanifest.xml` placement, and counting SCOs, quiz items, OASIS XLIFF 1.2 localization strings, and packaged media assets.
 
 > [!TIP]
-> **Need to edit an orphaned SCORM `.zip`, export a Microsoft Word (`.docx`) SME Storyboard, or translate XLIFF 1.2 in a zero-install browser GUI?**
-> Instructional designers and L&D teams can run the full client-side studio (100% local browser RAM, **0 bytes uploaded to any server**, with free sample exports) at **[scorm.stillhumanacademy.com](https://scorm.stillhumanacademy.com)**:
+> **Need a 1-click Chrome Extension for Rise 360 or a zero-install browser GUI for orphaned SCORM `.zip` rescue?**
+> - **Free Chrome Extension for Rise 360 Themes, Video Scrubber Gates & Word `.docx` Backups:** [**Install RiseKit for Rise 360 on Chrome Web Store**](https://chromewebstore.google.com/detail/risekit-for-rise-360-them/efgobfllpgjbbbnfckodiljfokafmfmf)
+> - **Full Local Browser Studio (`0` bytes uploaded to any server):** **[scorm.stillhumanacademy.com](https://scorm.stillhumanacademy.com)**
 >
 > - **Edit Orphaned or Rise-Exported SCORM `.zip` Without Source Files:** [scorm.stillhumanacademy.com/edit-rise-360-scorm-without-source](https://scorm.stillhumanacademy.com/edit-rise-360-scorm-without-source)
 > - **Extract a Microsoft Word (`.docx`) SME Storyboard from Any SCORM `.zip`:** [scorm.stillhumanacademy.com/extract-word-storyboard-from-scorm-zip](https://scorm.stillhumanacademy.com/extract-word-storyboard-from-scorm-zip)
